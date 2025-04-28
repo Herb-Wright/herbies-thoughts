@@ -13,9 +13,15 @@ jobs:
   convert-and-deploy:
     runs-on: ubuntu-latest
 
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
       
       - name: Install Pandoc
         run: |
@@ -47,9 +53,11 @@ jobs:
         run: |
           rm -rf ./template
       
-      - name: Deploy to GitHub Pages
-        uses: JamesIves/github-pages-deploy-action@v4
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
         with:
-          folder: .  # The folder containing the built site
-          branch: gh-pages  # The branch to deploy to
-          # clean: true  # Automatically remove deleted files from the deploy branch
+          # Upload entire repository
+          path: '.'
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
