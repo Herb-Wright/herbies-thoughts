@@ -52,4 +52,4 @@ jobs:
         with:
           folder: .  # The folder containing the built site
           branch: gh-pages  # The branch to deploy to
-          clean: true  # Automatically remove deleted files from the deploy branch
+          # clean: true  # Automatically remove deleted files from the deploy branch
