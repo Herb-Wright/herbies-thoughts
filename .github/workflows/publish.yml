@@ -1,5 +1,7 @@
 name: Convert Markdown to HTML for GitHub Pages
 
+
+
 on:
   push:
     branches:
@@ -9,6 +11,10 @@ jobs:
   convert-and-deploy:
     runs-on: ubuntu-latest
     
+    permissions:
+      contents: read
+      pages: write
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
