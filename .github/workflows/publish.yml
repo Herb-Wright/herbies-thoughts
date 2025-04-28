@@ -35,16 +35,16 @@ jobs:
             pandoc -s "$file" -o "$dirname/$filename_noext.html"  --to=html5 --katex --citeproc -d ./template/defaults.yml
           done
       
-      - name: Remove markdown files
-        run: |
-          # Remove all markdown files except README.md
-          find . -name "*.md" -type f -not -name "README.md" -delete
-      - name: Remove bib files
-        run: |
-          find . -name "*.bib" -type f -delete
-      - name: Remove template files
-        run: |
-          rm -rf ./template
+      # - name: Remove markdown files
+      #   run: |
+      #     # Remove all markdown files except README.md
+      #     find . -name "*.md" -type f -not -name "README.md" -delete
+      # - name: Remove bib files
+      #   run: |
+      #     find . -name "*.bib" -type f -delete
+      # - name: Remove template files
+      #   run: |
+      #     rm -rf ./template
       
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
