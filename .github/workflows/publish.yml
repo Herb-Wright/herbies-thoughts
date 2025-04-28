@@ -1,6 +1,8 @@
 name: Convert Markdown to HTML for GitHub Pages
 
-
+permissions:
+  contents: read
+  pages: write
 
 on:
   push:
@@ -10,10 +12,6 @@ on:
 jobs:
   convert-and-deploy:
     runs-on: ubuntu-latest
-    
-    permissions:
-      contents: read
-      pages: write
 
     steps:
       - name: Checkout repository
