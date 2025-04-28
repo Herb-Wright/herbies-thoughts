@@ -2,7 +2,7 @@ name: Convert Markdown to HTML for GitHub Pages
 
 permissions:
   contents: read
-  pages: write
+  contents: write
 
 on:
   push:
