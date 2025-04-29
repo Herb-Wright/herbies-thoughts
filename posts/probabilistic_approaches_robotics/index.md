@@ -8,7 +8,7 @@ shift-heading-level-by: 1
 
 ## 1 Intro
 
-This is my inaugural blog post, so I figured I'd do something short that should probably be much longer: I'd like to sketch out a few reasons why you might still want to use probabilistic robotics methods in the age of VLAs. I am obviously biased, as my only published paper, [@wright2024v], is a Bayesian method and I plan to continue to develop probabilistic methods in the future. And, of course many probabilistic methods still have their shortfalls (speed being a common one), but I really do think that some things are better done probabilistically.
+This is my inaugural blog post, so I figured I'd do something short that should probably be much longer: I'd like to sketch out a few reasons why you might still want to use probabilistic robotics methods in the age of VLAs. I am obviously biased, as my only published paper, [@wright2024v], is a Bayesian method and I plan to continue to develop probabilistic methods in the future. And, of course, many probabilistic methods still have their shortfalls (speed being a common one), but I really do think that some things are better done probabilistically.
 
 ## 2 Uncertainty
 
@@ -20,7 +20,7 @@ As I mentioned, uncertainty can also be useful for safety. Specifically, the abi
 
 ## 3 Capturing Multiple Solutions
 
-Some problems in robotics or computer vision have multiple valid solutions. One example is 3D reconstruction from a partial view. Consider a mug with the handle occluded; if you were asked to reconstruct the backside, there are multiple valid ways to add a handle to the backside. As such, methods to deterministically predict a single reconstruction from a single partial view won't be able to capture the range of solutions. Using a probabilistic method, like diffusion, will be able to capture the range of solutions by modeling them as a probability distribution. Of course, diffusion policies [@chi2023diffusion] use diffusion for a similar reason—sometimes you need to learn multi-modal policies.
+Some problems in robotics or computer vision have multiple valid solutions. One example is 3D reconstruction from a partial view. Consider a mug with the handle occluded; if you were asked to reconstruct the backside, there are multiple valid ways to add a handle to the backside. As such, methods to deterministically predict a single reconstruction from a single partial view won't be able to capture the range of solutions. Probabilistic methods, like diffusion, will be able to capture the range of solutions by modeling them as a probability distribution. Of course, diffusion policies [@chi2023diffusion] use diffusion for a similar reason—sometimes you need to learn multi-modal policies.
 
 Of course diffusion has its limitations, but there are also other ways to capture irregular distributions that come with their own trade offs. But you know what can't capture a distribution of solutions? A deterministic approach.
 
