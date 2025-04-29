@@ -8,7 +8,7 @@ img: image.png
 
 ## Latest Posts {-}
 
-*Looks like I haven't made a post yet!*
+- [Why I Believe in Probabilistic Approaches to Robotics](/posts/probabilistic_approaches_robotics) - *2025 April 28*
 
 
 
