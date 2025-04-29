@@ -1,4 +1,4 @@
-number-sections: true
+# number-sections: true
 csl: template/ieee.csl
 template: template/template.html5
 highlight-style: kate
