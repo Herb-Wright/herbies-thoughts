@@ -6,7 +6,7 @@ img: image.png
 
 ---------------------
 
-## Latest Thoughts {-}
+## Latest Posts {-}
 
 *Looks like I haven't made a post yet!*
 

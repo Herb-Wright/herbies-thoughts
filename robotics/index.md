@@ -2,4 +2,4 @@
 title: Herbie's Robotics Posts
 ---
 
-*Looks like I haven't posted anything here...*
+- [Why I Believe in Probabilistic Approaches to Robotics](posts/probabilistic_approaches_robotics) - *2025 April 28*
