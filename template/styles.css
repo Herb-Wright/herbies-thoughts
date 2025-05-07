@@ -1,42 +1,16 @@
+:root {
+    --max-page-width: 800px;
+    --neutral-700: #404040;
+    --sky-900: #0c4a6e;
+    --sky-800: #075985;
+    --sky-700: #0369a1;
+    --sky-600: #0284c7;
+    --orange-700: #c2410c;
+}
+
 /*
  * I add this to html files generated with pandoc.
  */
-
- code{white-space: pre-wrap;}
- span.smallcaps{font-variant: small-caps;}
- div.columns{display: flex; gap: min(4vw, 1.5em);}
- div.column{flex: auto; overflow-x: auto;}
- div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
- /* The extra [class] is a hack that increases specificity enough to
-    override a similar rule in reveal.js */
- ul.task-list[class]{list-style: none;}
- ul.task-list li input[type="checkbox"] {
-   font-size: inherit;
-   width: 0.8em;
-   margin: 0 0.8em 0.2em -1.6em;
-   vertical-align: middle;
- }
- /* CSS for citations */
- div.csl-bib-body { }
- div.csl-entry {
-   clear: both;
-   margin-bottom: 0em;
- }
- .hanging-indent div.csl-entry {
-   margin-left:2em;
-   text-indent:-2em;
- }
- div.csl-left-margin {
-   min-width:2em;
-   float:left;
- }
- div.csl-right-inline {
-   margin-left:2em;
-   padding-left:1em;
- }
- div.csl-indent {
-   margin-left: 2em;
- }  
 
 html {
     font-size: 100%;
@@ -46,33 +20,34 @@ html {
 }
 
 body {
-    color: #444;
+    color: var(--neutral-700);
     font-family: sans-serif;
     font-size: 12px;
     line-height: 1.7;
     padding: 1em;
     margin: auto;
-    max-width: 800px;
+    max-width: var(--max-page-width);
     background: #fefefe;
     padding-bottom: 10rem;
     text-align: justify;
 }
 
 a {
-    color: #0645ad;
-    text-decoration: none;
+    color: var(--sky-800);
+    text-decoration: underline;
 }
 
 a:visited {
-    color: #0b0080;
+    color: var(--sky-900);
 }
 
 a:hover {
-    color: #06e;
+    color: var(--sky-600);
+    text-decoration: none;
 }
 
 a:active {
-    color: #faa700;
+    color: var(--orange-700);
 }
 
 a:focus {
@@ -91,12 +66,12 @@ a:focus {
 
 a::-moz-selection {
     background: rgba(255, 255, 0, 0.3);
-    color: #0645ad;
+    color: var(--sky-900);
 }
 
 a::selection {
     background: rgba(255, 255, 0, 0.3);
-    color: #0645ad;
+    color: var(--sky-900);
 }
 
 p {
@@ -290,27 +265,13 @@ table td {
     vertical-align: top;
 }
 
-.author {
-    font-size: 1.2em;
-}
-
-.header-img {
-    margin-bottom: -3em;
-    margin-top: 3em;
-    max-width: 200px;
-}
-
 span.display {
     overflow: auto;
     max-width: 100%;
     display: block;
 }
 
-#title-block-header {
-    text-align: left;
-    margin-bottom: 4em;
-    margin-top: 1em;
-}
+
 
 nav {
     display: flex;
@@ -320,9 +281,62 @@ nav {
     padding: 1em 0em;
 }
 
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+/* The extra [class] is a hack that increases specificity enough to
+   override a similar rule in reveal.js */
+ul.task-list[class]{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  font-size: inherit;
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}  
+
 .links {
     display: flex;
     gap: 1em;
+}
+
+.author {
+    font-size: 1.2em;
+}
+
+.header-img {
+    margin-bottom: -3em;
+    margin-top: 3em;
+    max-height: 150px;
+}
+
+
+#title-block-header {
+    text-align: left;
+    margin-bottom: 4em;
+    margin-top: 1em;
 }
 
 

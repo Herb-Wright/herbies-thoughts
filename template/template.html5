@@ -48,7 +48,7 @@
 </head>
 
 <body>
-  <nav>
+  <nav class="printIgnore">
     <a href="/"><div>Herbie's Thoughts</div></a>
     <div class="links">
         <a href="/robotics"><div>Robotics</div></a>
@@ -94,8 +94,8 @@
   $for(include-after)$
   $include-after$
   $endfor$
-  <hr>
-  <p><i>You can find my personal website <a href="https://herbiewright.com/">here</a></i></p>
+  <hr class="printIgnore">
+  <p class="printIgnore"><i>You can find my personal website <a href="https://herbiewright.com/">here</a></i></p>
 </body>
 
 </html>
