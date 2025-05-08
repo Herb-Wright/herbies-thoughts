@@ -10,6 +10,7 @@
     --sky-400: #38bdf8;
     --sky-300: #7dd3fc;
     --sky-200: #bae6fd;
+    --sky-100: #e0f2fe;
     --orange-700: #c2410c;
 }
 
@@ -493,6 +494,14 @@ div.csl-indent {
 
     .subtitle {
         color: rgb(190, 190, 190);
+    }
+
+    *::-moz-selection, *::selection {
+        color: #fff;
+    }
+    
+    a::-moz-selection, a::selection {
+        color: var(--sky-100);
     }
 }
 
