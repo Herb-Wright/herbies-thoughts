@@ -288,7 +288,7 @@ nav {
     justify-content: space-between;
     max-width: var(--max-page-width);
     width: 100%;
-    padding: 1em 0em;
+    padding-bottom: 1em;
 }
 
 code{white-space: pre-wrap;}
