@@ -1,10 +1,15 @@
 :root {
     --max-page-width: 800px;
+    --neutral-900: #171717;
     --neutral-700: #404040;
+    --neutral-600: #525252;
     --sky-900: #0c4a6e;
     --sky-800: #075985;
     --sky-700: #0369a1;
     --sky-600: #0284c7;
+    --sky-400: #38bdf8;
+    --sky-300: #7dd3fc;
+    --sky-200: #bae6fd;
     --orange-700: #c2410c;
 }
 
@@ -42,7 +47,7 @@ a:visited {
 }
 
 a:hover {
-    color: var(--sky-600);
+    color: var(--sky-800);
     text-decoration: none;
 }
 
@@ -81,6 +86,10 @@ p {
 img {
     max-height: 350px;
     max-width: 100%;
+}
+
+.subtitle {
+    color: var(--neutral-600);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -452,6 +461,37 @@ div.csl-indent {
     }
 }
 
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: var(--neutral-900);;
+        color: rgb(210, 210, 210);
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        color: rgb(230, 230, 230);
+    }
+
+    a {
+        color: var(--sky-300);
+    }
+
+    a:hover {
+        color: var(--sky-300);
+    }
+
+    a:visited {
+        color: var(--sky-200);
+    }
+
+    a:active {
+        color: var(--sky-400);
+    }
+
+    .subtitle {
+        color: rgb(190, 190, 190);
+    }
+}
+
 
 /* TANGO STYLES FOR CODE BLOCKS */
 a.sourceLine { display: inline-block; line-height: 1.25; }
@@ -462,14 +502,13 @@ code.sourceCode { white-space: pre; position: relative; }
 div.sourceCode { margin: 1em 0; }
 pre.sourceCode { margin: 0; }
 @media screen {
-div.sourceCode { overflow: auto; }
+    div.sourceCode { overflow: auto; }
 }
 @media print {
-code.sourceCode { white-space: pre-wrap; }
-a.sourceLine { text-indent: -1em; padding-left: 1em; }
+    code.sourceCode { white-space: pre-wrap; }
+    a.sourceLine { text-indent: -1em; padding-left: 1em; }
 }
-pre.numberSource a.sourceLine
-  { position: relative; left: -4em; }
+pre.numberSource a.sourceLine { position: relative; left: -4em; }
 pre.numberSource a.sourceLine::before
   { content: attr(title);
     position: relative; left: -1em; text-align: right; vertical-align: baseline;
@@ -481,10 +520,9 @@ pre.numberSource a.sourceLine::before
     color: #aaaaaa;
   }
 pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
-div.sourceCode
-  { background-color: #f8f8f8; }
+div.sourceCode { background-color: #f8f8f8; }
 @media screen {
-a.sourceLine::before { text-decoration: underline; }
+    a.sourceLine::before { text-decoration: underline; }
 }
 code span.al { color: #ef2929; } /* Alert */
 code span.an { color: #8f5902; font-weight: bold; font-style: italic; } /* Annotation */
