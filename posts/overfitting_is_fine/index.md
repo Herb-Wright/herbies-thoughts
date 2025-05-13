@@ -31,7 +31,7 @@ They then went on to show how this pattern emerges from several different learni
 
 ![](doubledescent2.png)
 
-A new narrative was starting to develop: after a certain "interpolation threshold", you should just keep making your network bigger to get better performance. In other words, in the modern regime, *scaling* gives you more generalization. But the story doesn't end here. As Ben Recht [points out in his blog](https://www.argmin.net/p/overfitting-to-theories-of-overfitting), You don't *always* see double descent. Sometimes test error just looks like a monotonically decreasing function—AKA single descent. This brings us to something that I've already hinted at: neural scaling laws.
+A new narrative is starting to develop: after a certain "interpolation threshold", you should just keep making your network bigger to get better performance. In other words, in the modern regime, *scaling* gives you more generalization. But the story doesn't end here. As Ben Recht [points out in his blog](https://www.argmin.net/p/overfitting-to-theories-of-overfitting), You don't *always* see double descent. Sometimes test error just looks like a monotonically decreasing function—AKA single descent. This brings us to something that I've already hinted at: neural scaling laws.
 
 ## 3 Neural Scaling Laws
 
