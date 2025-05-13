@@ -27,7 +27,7 @@ Well, in 2019, Belkin et al. proposed an extension of the bias-variance curve th
 
 ![](doubledescent.png)
 
-They then went on to show how this pattern emerges from several different learning algorithms. They looked at random Fourier features (RFFs [@rahimi2007random] are cool), fully connected neural networks, and random forests (all on MNIST). Here is a compilation of figures from the paper showing the real-life double descent curves:
+They then went on to show how this pattern emerges from several learning algorithms. They looked at random Fourier features (RFFs [@rahimi2007random] are cool), fully connected neural networks, and random forests (all on MNIST). Here is a compilation of figures from the paper showing the real-life double descent curves:
 
 ![](doubledescent2.png)
 
@@ -43,7 +43,7 @@ It might be worth noting that as far as I understand, these neural scaling laws 
 
 So, go exactly fit your data—overfitting is fine, actually. Then, when your test set performance sucks, probably get more/better data instead of making your model smaller. If you really want to improve your model, make it bigger—or better yet, choose an expressive model class that contains invariances or biases specific to your problem. Things like using a convolutional neural network for images or using Eikonal regularization for your neural SDF [@gropp2020implicit]. Exploit the structure of your problem. But fitting that into the bias-variance, overfitting, and scaling laws story might deserve its own post.
 
-**Note:** *As explored by [@belkin2019reconciling], neural networks aren't the only learning algorithm that gets better as it interpolates; kernels do this and are pretty cool. Also, a nearest neighbor approach—basically a database lookup—can both interpolate and generalize.*
+**Note:** *As explored by [@belkin2019reconciling], neural networks aren't the only learning algorithm that gets better as it interpolates; kernel methods do this and are pretty cool. Also, a nearest neighbor approach—basically a database lookup—can both interpolate and generalize.*
 
 ## References
 
