@@ -17,7 +17,7 @@ Apparently, people in the machine learning community used to believe in somethin
 
 ## Recent Posts
 
-- [Quaternions!] - *2025 May 19*
+- [Quaternions!](/posts/quaternions/) - *2025 May 19*
 - [Overfitting is Fine, Actually?](/posts/overfitting_is_fine) - *2025 May 12*
 - [Understanding Rigid Body Physics Simulation](/posts/rigid_body_simulation) - *2025 May 5*
 - [Why I Believe in Probabilistic Approaches to Robotics](/posts/probabilistic_approaches_robotics) - *2025 April 28*
