@@ -21,14 +21,14 @@ I'm not writing it all out because it's a lot. Feel free to look at the [Wikiped
 $$ q p \neq p q. $$
 In fact, $q p = - p q$. That's where the *non-commutative* part comes in. The second thing is that *associativity* works fine:
 $$ (q p) r = q (p r), \forall q, p, r \in \mathbb H. $$
-Of course, this also combines nicely with quaternion addition and scalar multiplication, which are defined as (for $a \in \mathbf R$):
+Of course, this also combines nicely with quaternion addition and scalar multiplication, which are defined as (for $a \in \mathbb R$):
 $$ q + p = (q_1 + p_1) + (q_2 + p_2) \mathbf i + (q_3 + p_3) \mathbf j + (q_4 + p_4) \mathbf k $$
 $$ a q = a q_1 + a q_2 \mathbf i + a q_3 \mathbf j + a q_4 \mathbf k $$
 I say it combines nicely because you can have properties such as $q(p + r) = qp + qr$, etc.
 There are also a couple of specific quaternions that ought to be remembered: $1, 0 \in \mathbb H$, where the real part is either 1 or 0 and all imaginary coefficients are set to 0.
 It should also be noted that quaternions are equipped with a norm. That norm is defined like so:
 $$ \| q \| = \sqrt{q_1^2 + q_2^2 + q_3^2 + q_4^2}. $$
-Which, in my opinion, is pretty straightforward. The addition and scalar multiplication are defined like the traditional $\mathbb R^4$ vector space, so the relevant properties for the norm hold. What is interesting, is that when you look at the set of *unit quaternions*—$\{q \in \mathbb H: \|q\|=1\}$—they are able to describe the $SO(3)$ lie group.
+Which, in my opinion, is pretty straightforward. The addition and scalar multiplication are defined like the traditional $\mathbb R^4$ vector space, so the relevant properties for the norm hold. What *is* interesting, is that when you look at the set of *unit quaternions*—$\{q \in \mathbb H: \|q\|=1\}$—they are able to describe the $SO(3)$ lie group.
 
 ## Unit Quaternions & Rotations
 
