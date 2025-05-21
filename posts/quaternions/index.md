@@ -19,13 +19,13 @@ We can use the rules from the very first equation to multiply two quaternions, $
 $$ qp = (q_1 p_1-q_2 p_2-q_3 p_3 - q_4 p_4) + (q_1 p_2 + q_2 p_1 + q_3 p_4 - q_4 p_3)\mathbf i + (q_1 p_3 + ...) \mathbf j + (...) \mathbf k$$
 I'm not writing it all out because it's a lot. Feel free to look at the [Wikipedia page](https://en.wikipedia.org/wiki/Quaternion) for the whole product. There are a few things to note about the product though, and they relate to the long complicated name I opened the section with. The first thing to note is that *order matters*:
 $$ q p \neq p q. $$
-In fact, $q p = - p q$. That's where the *non-commutative* part comes in. The second thing is that *associativity* works fine:
+That's where the *non-commutative* part comes in. The second thing is that *associativity* works fine:
 $$ (q p) r = q (p r), \forall q, p, r \in \mathbb H. $$
 Of course, this also combines nicely with quaternion addition and scalar multiplication, which are defined as (for $a \in \mathbb R$):
 $$ q + p = (q_1 + p_1) + (q_2 + p_2) \mathbf i + (q_3 + p_3) \mathbf j + (q_4 + p_4) \mathbf k $$
 $$ a q = a q_1 + a q_2 \mathbf i + a q_3 \mathbf j + a q_4 \mathbf k $$
 I say it combines nicely because you can have properties such as $q(p + r) = qp + qr$, etc.
-There are also a couple of specific quaternions that ought to be remembered: $1, 0 \in \mathbb H$, where the real part is either 1 or 0 and all imaginary coefficients are set to 0.
+There are also a couple of specific quaternions that ought to be remembered: $1, 0 \in \mathbb H$, where the real part is either 1 or 0 and all imaginary coefficients are set to 0. On that note, you can also define an *inverse* for non-zero quaternions—i.e. a quaternion $q^{-1} \in \mathbb R$ such that $q q^{-1} = 1$.
 It should also be noted that quaternions are equipped with a norm. That norm is defined like so:
 $$ \| q \| = \sqrt{q_1^2 + q_2^2 + q_3^2 + q_4^2}. $$
 Which, in my opinion, is pretty straightforward. The addition and scalar multiplication are defined like the traditional $\mathbb R^4$ vector space, so the relevant properties for the norm hold. What *is* interesting, is that when you look at the set of *unit quaternions*—$\{q \in \mathbb H: \|q\|=1\}$—they are able to describe the $SO(3)$ lie group.
@@ -34,8 +34,8 @@ Which, in my opinion, is pretty straightforward. The addition and scalar multipl
 
 As mentioned in the previous paragraph, unit quaternions are the set of quaternions with a norm of 1. These unit quaternions can be used to describe the [lie group of 3D rotations](https://en.wikipedia.org/wiki/3D_rotation_group), denoted $SO(3)$. Any two quaternions with unit length, when multiplied, will result in another unit length quaternion—this allows us to *compose* or multiply rotations. But if we have a unit quaternion, $q \in \mathbb H$, how would we rotate a 3D point, say $(x_1, x_2, x_3) \in \mathbb R^3$? Well, we first make a quaternion using our 3D vector like so:
 $x = 0 + x_1 \mathbf i + x_2 \mathbf j + x_3 \mathbf k.$
-While this is not necessarily a *unit* quaternion, it is a quaternion. We can rotate by simply multiplying:
-$$ x' = q x. $$
+While this is not necessarily a *unit* quaternion, it is a quaternion. We can rotate by simply multiplying the following:
+$$ x' = q x q^{-1}. $$
 Easy peasy. We can now store 3D rotations with only 4 numbers instead of a whole 3x3 rotation matrix, and we don't have to worry about [Gimbal lock](https://en.wikipedia.org/wiki/Gimbal_lock) that comes with Euler angles. 
 
 ## Conclusion
