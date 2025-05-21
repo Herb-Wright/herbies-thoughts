@@ -8,7 +8,7 @@ date: 2025 May 19
 ## 1 Intro & History
 
 The world needs one more Quaternions explainer. Ok maybe not, but I'm going to make one anyway. Specifically, I want to talk about how quaternions are used to store and compute rotations in 3D—pretty useful in robotics. It's all pretty similar to how complex numbers can describe 2D rotations. Complex numbers served as the starting point for the invention (discovery?) of quaternions. Quaternions were first thought up on October 16, 1843 by William Rowan Hamilton, who was trying to extend complex numbers to "triples" (or one real number with two imaginary components). His insight, which occurred to him on a walk with his wife, was to skip right past "triples" and go to "quadruples" where two extra imaginary numbers were added. The famous equation, which he etched onto a bridge, looks like this:
-$$ i^2 = j^2 = k^2 = ijk = -1 $$
+$$ \mathbf i^2 = \mathbf j^2 = \mathbf k^2 = \mathbf{ijk} = -1 $$
 And that is how we got quaternions. But... what are they?
 
 ## 2 What are Quaternions?
