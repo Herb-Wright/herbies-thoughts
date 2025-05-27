@@ -3,6 +3,7 @@ title: Overfitting is Fine, Actually?
 author: "[Herbie Wright](https://herbiewright.com/)"
 date: 2025 May 12
 bibliography: posts/overfitting_is_fine/refs.bib
+link-citations: true
 ---
 
 ## 1 The Bias-Variance Tradeoff and Overfitting

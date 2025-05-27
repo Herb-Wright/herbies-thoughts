@@ -3,6 +3,7 @@ title: Why I Believe in Probabilistic Approaches to Robotics
 author: "[Herbie Wright](https://herbiewright.com/)"
 date: 2025 April 28
 bibliography: posts/probabilistic_approaches_robotics/refs.bib
+link-citations: true
 ---
 
 ## 1 Intro

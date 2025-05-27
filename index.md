@@ -7,16 +7,17 @@ favicon: favicon.svg
 
 ------------
 
-### Overfitting is Fine, Actually?
+### Reliable Robots Really Require Remarkable Robustness
 
-*2025 May 12*
+*2025 May 27*
 
-Apparently, people in the machine learning community used to believe in something called the *bias-variance tradeoff*. The story went like this: if you use an ML algorithm that is too simplistic for your data, the algorithm will be too *biased* and perform poorly on both the train and test set. Fair enough. On the other hand, the story continues, if your algorithm is too expressive and complex... [Read More →](/posts/overfitting_is_fine)
+I want to start with a hypothetical thought experiment. Imagine you are the world's best roboticist and just trained from scratch a spectacular end-to-end policy for opening a washing machine door. In a slight lapse of judgement, you only trained on examples of *front-loading* washers. Then, full of excitement, you take your robot (and trained policy) to your grandma's house. Let's say that, unbeknownst to you, she happens to have a *top-loading* washer. Well... [Read More →](/posts/robustness_and_robotics/)
 
 ------------
 
-## Recent Posts
+## All Posts
 
+- [Reliable Robots Really Require Remarkable Robustness](/posts/robustness_and_robotics/) - *2025 May 27*
 - [Quaternions!](/posts/quaternions/) - *2025 May 19*
 - [Overfitting is Fine, Actually?](/posts/overfitting_is_fine) - *2025 May 12*
 - [Understanding Rigid Body Physics Simulation](/posts/rigid_body_simulation) - *2025 May 5*

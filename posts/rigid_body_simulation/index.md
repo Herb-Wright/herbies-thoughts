@@ -3,6 +3,7 @@ title: Understanding Rigid Body Physics Simulation
 author: "[Herbie Wright](https://herbiewright.com/)"
 date: 2025 May 5
 bibliography: posts/rigid_body_simulation/refs.bib
+link-citations: true
 ---
 
 ## 1 Intro
