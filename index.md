@@ -1,7 +1,7 @@
 ---
 title: 🤖 Herbie's Thoughts on Robotics (and Other Stuff)
 pagetitle: Herbie's Thoughts on Robotics (and Other Stuff)
-subtitle: The Ramblings of a (soon-to-be) Robotics PhD Student
+subtitle: "*The Ramblings of a (soon-to-be) Robotics PhD Student*"
 favicon: favicon.svg
 ---
 
@@ -23,6 +23,11 @@ I want to start with a hypothetical thought experiment. Imagine you are the worl
 - [Understanding Rigid Body Physics Simulation](/posts/rigid_body_simulation) - *2025 May 5*
 - [Why I Believe in Probabilistic Approaches to Robotics](/posts/probabilistic_approaches_robotics) - *2025 April 28*
 
+-----------
+
+## About
+
+Welcome to my "blog". I'm trying to use this space to write about things I think are interesting or useful, most likely about robotics or machine learning. I also want this to be a place where I can get things *wrong*.
 
 
 
