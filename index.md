@@ -7,16 +7,17 @@ favicon: favicon.svg
 
 ------------
 
-### Reliable Robots Really Require Remarkable Robustness
+### P-Hacking ICRA
 
-*2025 May 27*
+*2025 June 16*
 
-I want to start with a hypothetical thought experiment. Imagine you are the world's best roboticist and just trained from scratch a spectacular end-to-end policy for opening a washing machine door. In a slight lapse of judgement, you only trained on examples of *front-loading* washers. Then, full of excitement, you take your robot (and trained policy) to your grandma's house. Let's say that, unbeknownst to you, she happens to have a *top-loading* washer. Well... [Read More →](/posts/robustness_and_robotics/)
+The 2025 IEEE International Conference on Robotics and Automation (ICRA) took place in May, and I didn't go—probably because I didn't submit anything to it. Despite not attending, I do care about what happened at ICRA, because I care about staying up-to-date with the robotics field. I have had the opportunity to talk to a couple of people who did go. The main vibe I got aligned with what Chris Paxton states in his blog: ICRA was more serious this year... [Read More →](/posts/p_hacking_icra/)
 
 ------------
 
 ## All Posts
 
+- [P-Hacking ICRA](/posts/p_hacking_icra/) - *2025 June 16*
 - [Reliable Robots Really Require Remarkable Robustness](/posts/robustness_and_robotics/) - *2025 May 27*
 - [Quaternions!](/posts/quaternions/) - *2025 May 19*
 - [Overfitting is Fine, Actually?](/posts/overfitting_is_fine) - *2025 May 12*
