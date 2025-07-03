@@ -11,7 +11,7 @@ favicon: favicon.svg
 
 *2025 July 3*
 
-Picture this: it's the spring semester of 2023. I'm fidgeting with a pen in a packed basement classroom as my professor introduces the final project—a competition. Nothing gets me going like a competition where doing well doesn't actually earn you any extra points towards a grade and is solely for bragging rights! What I didn't know at the time, was that when the dust was settled, I would end up getting 3rd on the private leaderboard (and be the highest placing undergraduate)... [Read More →](/posts/the_dumbest_way_3rd_ml_kaggle/)
+Picture this: it's the spring semester of 2023. I'm fidgeting with a pen in a packed basement classroom as my professor introduces the final project—a Kaggle competition. Nothing gets me going like a competition where doing well doesn't actually earn you any extra points towards a grade and is solely for bragging rights! What I didn't know at the time, was that when the dust was settled, I would end up getting 3rd on the private leaderboard (and be the highest placing undergraduate)... [Read More →](/posts/the_dumbest_way_3rd_ml_kaggle/)
 
 ------------
 
