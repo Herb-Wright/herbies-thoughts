@@ -7,16 +7,17 @@ favicon: favicon.svg
 
 ------------
 
-### P-Hacking ICRA
+### The Dumbest Way to Get 3rd Place in Your Class Kaggle Competition
 
-*2025 June 16*
+*2025 July 3*
 
-The 2025 IEEE International Conference on Robotics and Automation (ICRA) took place in May, and I didn't go—probably because I didn't submit anything to it. Despite not attending, I do care about what happened at ICRA, because I care about staying up-to-date with the robotics field. I have had the opportunity to talk to a couple of people who did go. The main vibe I got aligned with what Chris Paxton states in his blog: ICRA was more serious this year... [Read More →](/posts/p_hacking_icra/)
+Picture this: it's the spring semester of 2023. I'm fidgeting with a pen in a packed basement classroom as my professor introduces the final project—a competition. Nothing gets me going like a competition where doing well doesn't actually earn you any extra points towards a grade and is solely for bragging rights! What I didn't know at the time, was that when the dust was settled, I would end up getting 3rd on the private leaderboard (and be the highest placing undergraduate)... [Read More →](/posts/the_dumbest_way_3rd_ml_kaggle/)
 
 ------------
 
 ## All Posts
 
+- [The Dumbest Way to Get 3rd Place in Your Class Kaggle Competition](/posts/the_dumbest_way_3rd_ml_kaggle/) - *2025 July 3*
 - [P-Hacking ICRA](/posts/p_hacking_icra/) - *2025 June 16*
 - [Reliable Robots Really Require Remarkable Robustness](/posts/robustness_and_robotics/) - *2025 May 27*
 - [Quaternions!](/posts/quaternions/) - *2025 May 19*

@@ -59,7 +59,6 @@ I grouped them into four different colors, and figured I would make a brief note
 ## 5 Conclusion
 
 Okay, to be honest, a lot of this post feels like reading tea leaves. I would caution against placing too much weight on the evidence here as precisely reflecting robotics trends. It might be the case that the amount of papers that mention a word is not *that* indicative of the general excitement or popularity of something. It also might be the case that what I was measuring was kind of a lagging indicator of trends; people might mention something in the abstract that *was* a trend, while they explain its shortcomings and/or propose an alternative. There are a ton of ways that the results here might fail to accurately convey what I was ultimately looking for. I do, however, think that a few of the trends are legit. I mentioned Gaussian splatting—that one is for sure real. But for the most part, I think this post was mostly just some [correlations](https://www.argmin.net/p/correlation-is-all-we-have) with a dose of half-baked opinion and storytelling interjected.
-<!-- don't draw too many conclusions. I do think there is some validity to some of the trends. Maybe mentions are a lagging indicator of trends -->
 
 ## References
 
