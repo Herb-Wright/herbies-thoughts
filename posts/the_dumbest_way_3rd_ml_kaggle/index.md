@@ -30,6 +30,8 @@ Which can be solved fairly easily for a manageable amount of training data. A pr
 
 The second insight was to simply concatenate the test and training set into a new, larger "training set" to create my model. This is one of those things that *feels* illegal, even if it isn't. I mean, in my mind, more data usually means better model, and the easiest way to get more data is to steal from the test set. It's very dumb, and I'm sure some statistician or machine learning expert is rolling in their grave, but I was determined to do well on the leaderboard without spending hours of my time. While I can't be 100% sure, I do think that this is a key part of my placement on the leaderboard.
 
+*Does this count as cheating?* I don't think so in this case—the instructions didn't disallow it, I did run kernel regression on just the original training set, and there wasn't really anything at stake. Perhaps in some situations it could be seen as a bit dubious, however.
+
 ## 3 What Can We (I) Learn?
 
 So basically, I was able to get 3rd by implementing a very simple kernel method and committing a couple ML *faux-pas* like training on test data and using regression techniques on a classification problem. If I were to guess why I did so well, I would chalk it up to 3 main things: (1) training with a little more data than everyone else; (2) using a perfectly analytical, interpolating method with a decent-enough inductive bias; and (3) a healthy dose of luck. I want to take this section to talk a little bit more about what we can learn from all this.
