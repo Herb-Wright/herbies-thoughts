@@ -11,7 +11,7 @@ favicon: favicon.svg
 
 *2025 July 18*
 
-I attended a fair amount of seminars back at the University of Utah. I remember some of them providing free food—a glorious sight to starving college student. Bagels, cookies, and the occasional pizza. Unfortunately, this post has nothing to do with free food at seminars. This post also has nothing to do with those little robots that deliver food on various college campuses (quick sketch below), but it does have something to do with the 'no free lunch' theorem... [Read More →](posts/free_lunch_in_robotics/)
+I attended a fair amount of seminars back at the University of Utah. I remember some of them providing free food—a glorious sight to a starving college student. Bagels, cookies, and the occasional pizza. Unfortunately, this post has nothing to do with free food at seminars. This post also has nothing to do with those little robots that deliver food on various college campuses (quick sketch below), but it does have something to do with the 'no free lunch' theorem... [Read More →](posts/free_lunch_in_robotics/)
 
 ------------
 
