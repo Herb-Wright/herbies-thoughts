@@ -7,16 +7,17 @@ favicon: favicon.svg
 
 ------------
 
-### The Dumbest Way to Get 3rd Place in Your Class Kaggle Competition
+### There are Free Lunches in Robotics
 
-*2025 July 3*
+*2025 July 18*
 
-Picture this: it's the spring semester of 2023. I'm fidgeting with a pen in a packed basement classroom as my professor introduces the final project—a Kaggle competition. Nothing gets me going like a competition where doing well doesn't actually earn you any extra points towards a grade and is solely for bragging rights! What I didn't know at the time, was that when the dust was settled, I would end up getting 3rd on the private leaderboard (and be the highest placing undergraduate)... [Read More →](/posts/the_dumbest_way_3rd_ml_kaggle/)
+I attended a fair amount of seminars back at the University of Utah. I remember some of them providing free food—a glorious sight to starving college student. Bagels, cookies, and the occasional pizza. Unfortunately, this post has nothing to do with free food at seminars. This post also has nothing to do with those little robots that deliver food on various college campuses (quick sketch below), but it does have something to do with the 'no free lunch' theorem... [Read More →](posts/free_lunch_in_robotics/)
 
 ------------
 
 ## All Posts
 
+- [There are Free Lunches in Robotics](posts/free_lunch_in_robotics/) - *2025 July 18*
 - [The Dumbest Way to Get 3rd Place in Your Class Kaggle Competition](/posts/the_dumbest_way_3rd_ml_kaggle/) - *2025 July 3*
 - [P-Hacking ICRA](/posts/p_hacking_icra/) - *2025 June 16*
 - [Reliable Robots Really Require Remarkable Robustness](/posts/robustness_and_robotics/) - *2025 May 27*
