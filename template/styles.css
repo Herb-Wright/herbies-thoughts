@@ -371,15 +371,16 @@ div.csl-indent {
 @media print {
     * {
         background: transparent !important;
-        color: black !important;
         filter: none !important;
         -ms-filter: none !important;
     }
 
     body {
-        font-size: 8pt;
+        font-size: 10pt;
+        line-height: 1.5;
         max-width: 100%;
         padding-bottom: 0pt;
+        color: black;
     }
 
     /* a, a:visited {
@@ -392,9 +393,13 @@ div.csl-indent {
         border-bottom: 1px solid black;
     }
 
-    a[href]:after {
+    /* a[href]:after {
         content: " (" attr(href) ")";
-    }
+    } */
+/* 
+    a {
+        color: var(--sky-800);
+    } */
 
     abbr[title]:after {
         content: " (" attr(title) ")";
@@ -441,8 +446,9 @@ div.csl-indent {
         margin-bottom: 0.5em;
     }
 
-    p {
+    p, #refs {
         margin: 0.5em 0;
+        font-size: 12pt;
     }
 
     .printIgnore, #TOC  {
