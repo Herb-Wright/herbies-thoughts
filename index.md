@@ -17,7 +17,8 @@ I attended a fair amount of seminars back at the University of Utah. I remember 
 
 ## All Posts
 
-- [There are Free Lunches in Robotics](posts/free_lunch_in_robotics/) - *2025 July 18*
+- [Half-Baked Tips for NSF-GRFP Applicants](/posts/nsf_grfp_tips/) - *2025 July 27*
+- [There are Free Lunches in Robotics](/posts/free_lunch_in_robotics/) - *2025 July 18*
 - [The Dumbest Way to Get 3rd Place in Your Class Kaggle Competition](/posts/the_dumbest_way_3rd_ml_kaggle/) - *2025 July 3*
 - [P-Hacking ICRA](/posts/p_hacking_icra/) - *2025 June 16*
 - [Reliable Robots Really Require Remarkable Robustness](/posts/robustness_and_robotics/) - *2025 May 27*

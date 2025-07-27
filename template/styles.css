@@ -446,7 +446,7 @@ div.csl-indent {
         margin-bottom: 0.5em;
     }
 
-    p, #refs {
+    p, li, #refs {
         margin: 0.5em 0;
         font-size: 12pt;
     }

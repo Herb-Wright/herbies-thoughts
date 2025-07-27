@@ -2,4 +2,4 @@
 title: Herbie's Life/Advice Posts
 ---
 
-*Looks like I haven't posted anything here...*
+- [Half-Baked Tips for NSF-GRFP Applicants](/posts/nsf_grfp_tips/) - *2025 July 27*
