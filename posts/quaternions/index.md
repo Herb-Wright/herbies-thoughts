@@ -19,6 +19,8 @@ We can use the rules from the very first equation to multiply two quaternions, $
 $$ qp = (q_1 p_1-q_2 p_2-q_3 p_3 - q_4 p_4) + (q_1 p_2 + q_2 p_1 + q_3 p_4 - q_4 p_3)\mathbf i + (q_1 p_3 + ...) \mathbf j + (...) \mathbf k$$
 I'm not writing it all out because it's a lot. Feel free to look at the [Wikipedia page](https://en.wikipedia.org/wiki/Quaternion) for the whole product. There are a few things to note about the product though, and they relate to the long complicated name I opened the section with. The first thing to note is that *order matters*:
 $$ q p \neq p q. $$
+**Quick After-the-fact note:** $qp \neq pq$ doesn't hold for all $p, q \in \mathbb H$ (i.e. $p=q=1$), I am just trying to make the point that $pq = qp$ is not true generally for quaternions (i.e. $p = \mathbf i, q = \mathbf j$)
+
 That's where the *non-commutative* part comes in. The second thing is that *associativity* works fine:
 $$ (q p) r = q (p r), \forall q, p, r \in \mathbb H. $$
 Of course, this also combines nicely with quaternion addition and scalar multiplication, which are defined as (for $a \in \mathbb R$):
