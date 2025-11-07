@@ -7,11 +7,11 @@ favicon: favicon.svg
 
 ------------
 
-### There are Free Lunches in Robotics
+### The Absolute State of Modern Chess (Engines)
 
 *2025 November 7*
 
-Chess is an old game. It can be traced back to chaturanga, a 7th century game from India [@murray1913history]. Apparently, there even used to be an elephant piece. Regardless, the ancient origins of chess contrast the relatively recent supremacy of computers over humans at the game. The canonical moment where machines overtook humans occurred in 1997... [Read More →](/posts/state_of_chess_engines/)
+Chess is an old game. It can be traced back to chaturanga, a 7th century game from India. Apparently, there even used to be an elephant piece. Regardless, the ancient origins of chess contrast the relatively recent supremacy of computers over humans at the game. The canonical moment where machines overtook humans occurred in 1997... [Read More →](/posts/state_of_chess_engines/)
 
 ------------
 
