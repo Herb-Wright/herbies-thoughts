@@ -1,7 +1,7 @@
 ---
 title: 🤖 Herbie's Thoughts on Robotics (and Other Stuff)
 pagetitle: Herbie's Thoughts on Robotics (and Other Stuff)
-subtitle: "*The Ramblings of a (soon-to-be) Robotics PhD Student*"
+subtitle: "*The Ramblings of a Robotics PhD Student*"
 favicon: favicon.svg
 ---
 
