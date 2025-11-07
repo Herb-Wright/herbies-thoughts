@@ -9,14 +9,15 @@ favicon: favicon.svg
 
 ### There are Free Lunches in Robotics
 
-*2025 July 18*
+*2025 November 7*
 
-I attended a fair amount of seminars back at the University of Utah. I remember some of them providing free food—a glorious sight to a starving college student. Bagels, cookies, and the occasional pizza. Unfortunately, this post has nothing to do with free food at seminars. This post also has nothing to do with those little robots that deliver food on various college campuses (quick sketch below), but it does have something to do with the 'no free lunch' theorem... [Read More →](posts/free_lunch_in_robotics/)
+Chess is an old game. It can be traced back to chaturanga, a 7th century game from India [@murray1913history]. Apparently, there even used to be an elephant piece. Regardless, the ancient origins of chess contrast the relatively recent supremacy of computers over humans at the game. The canonical moment where machines overtook humans occurred in 1997... [Read More →](/posts/state_of_chess_engines/)
 
 ------------
 
 ## All Posts
 
+- [The Absolute State of Modern Chess (Engines)](/posts/state_of_chess_engines/) - *2025 November 7*
 - [Half-Baked Tips for NSF-GRFP Applicants](/posts/nsf_grfp_tips/) - *2025 July 27*
 - [There are Free Lunches in Robotics](/posts/free_lunch_in_robotics/) - *2025 July 18*
 - [The Dumbest Way to Get 3rd Place in Your Class Kaggle Competition](/posts/the_dumbest_way_3rd_ml_kaggle/) - *2025 July 3*
