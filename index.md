@@ -7,16 +7,17 @@ favicon: favicon.svg
 
 ------------
 
-### The Absolute State of Modern Chess (Engines)
+### What is the Next Paradigm Shift in Robotics?
 
-*2025 November 7*
+*2025 December 24*
 
-Chess is an old game. It can be traced back to chaturanga, a 7th century game from India. Apparently, there even used to be an elephant piece. Regardless, the ancient origins of chess contrast the relatively recent supremacy of computers over humans at the game. The canonical moment where machines overtook humans occurred in 1997... [Read More →](/posts/state_of_chess_engines/)
+"Great books are rare. This is one. Read it and you will see." These are the words Ian Hacking uses in his introductory essay to *The Structure of Scientific Revolutions*. He is right. The book, written by Thomas Kuhn in 1962, presents a radically different view of the progress of science than was commonly held... [Read More →](/posts/the_next_paradigm_shift/)
 
 ------------
 
 ## All Posts
 
+- [What is the Next Paradigm Shift in Robotics?](/posts/the_next_paradigm_shift/) - *2025 December 24*
 - [The Absolute State of Modern Chess (Engines)](/posts/state_of_chess_engines/) - *2025 November 7*
 - [Half-Baked Tips for NSF-GRFP Applicants](/posts/nsf_grfp_tips/) - *2025 July 27*
 - [There are Free Lunches in Robotics](/posts/free_lunch_in_robotics/) - *2025 July 18*
