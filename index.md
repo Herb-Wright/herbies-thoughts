@@ -11,7 +11,7 @@ favicon: favicon.svg
 
 *2026 June 9*
 
-On February 16, 2026, I had the opportunity to participate in a structured debate—something I had never done before. The debate was centered around the role of *simulation* in robotics. See, there are a lot of problems in robotics that feel like they would just go away if simulation was better. But simulation in robotics, while being quite impressive, still lacks some things we really wish it had. Things like... [Read More →](/post/simulation_matters/)
+On February 16, 2026, I had the opportunity to participate in a structured debate—something I had never done before. The debate was centered around the role of *simulation* in robotics. See, there are a lot of problems in robotics that feel like they would just go away if simulation was better. But simulation in robotics, while being quite impressive, still lacks some things we really wish it had... [Read More →](/post/simulation_matters/)
 
 ------------
 
