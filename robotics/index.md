@@ -2,7 +2,7 @@
 title: Herbie's Robotics Posts
 ---
 
-- [Simulation Matters.](/post/simulation_matters/) - *2026 June 9*
+- [Simulation Matters.](/posts/simulation_matters/) - *2026 June 9*
 - [What is the Next Paradigm Shift in Robotics?](/posts/the_next_paradigm_shift/) - *2025 December 24*
 - [There are Free Lunches in Robotics](/posts/free_lunch_in_robotics/) - *2025 July 18*
 - [P-Hacking ICRA](/posts/p_hacking_icra/) - *2025 June 16*
