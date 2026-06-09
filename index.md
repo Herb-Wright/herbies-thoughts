@@ -7,16 +7,17 @@ favicon: favicon.svg
 
 ------------
 
-### What is the Next Paradigm Shift in Robotics?
+### Simulation Matters.
 
-*2025 December 24*
+*2026 June 9*
 
-"Great books are rare. This is one. Read it and you will see." These are the words Ian Hacking uses in his introductory essay to *The Structure of Scientific Revolutions*. He is right. The book, written by Thomas Kuhn in 1962, presents a radically different view of the progress of science than was commonly held... [Read More →](/posts/the_next_paradigm_shift/)
+On February 16, 2026, I had the opportunity to participate in a structured debate—something I had never done before. The debate was centered around the role of *simulation* in robotics. See, there are a lot of problems in robotics that feel like they would just go away if simulation was better. But simulation in robotics, while being quite impressive, still lacks some things we really wish it had. Things like... [Read More →](/post/simulation_matters/)
 
 ------------
 
 ## All Posts
 
+- [Simulation Matters.](/post/simulation_matters/) - *2026 June 9*
 - [What is the Next Paradigm Shift in Robotics?](/posts/the_next_paradigm_shift/) - *2025 December 24*
 - [The Absolute State of Modern Chess (Engines)](/posts/state_of_chess_engines/) - *2025 November 7*
 - [Half-Baked Tips for NSF-GRFP Applicants](/posts/nsf_grfp_tips/) - *2025 July 27*

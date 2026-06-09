@@ -47,7 +47,7 @@ An oldie, but goodie. The [alpha-beta tree search](https://en.wikipedia.org/wiki
 ### 3.2 NNUE
 
 The **E**fficiently **U**pdatable **N**eural **N**etwork (NNUE) is what many modern chess engines (including Stockfish) use to evaluate board positions. Interestingly, NNUE's were not even first used for chess—they were developed by computer scientist Yu Nasu for [shogi](https://en.wikipedia.org/wiki/Shogi) [@nasu2018efficiently]. The core insight behind NNUE is that the neural network will need to be evaluated many times, in positions that only differ by a little bit. The structure of NNUE leverages this fact to require that small changes to the board state require minimal computation compared to fully evaluating the network. The way this is done is actually pretty simple. Consider a two layer neural network:
-$$ z = \sigma(W_1 x + b_2) $$
+$$ z = \sigma(W_1 x + b_1) $$
 $$ \hat y = \sigma(W_2 z + b_2) $$
 $$ x \in \mathbb R^n, z \in \mathbb R^m, y \in \mathbb R^p $$
 Where $\sigma$ is any old activation function. If we define our network such that $n>>m$ and $x$ is a sparse binary vector, we can write:
