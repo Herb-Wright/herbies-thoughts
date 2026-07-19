@@ -2,6 +2,7 @@
 title: Herbie's Robotics Posts
 ---
 
+- [Tracking ICRA Trends (P-Hacking ICRA p. II)](/posts/icra_trends/) - *2026 July 19*
 - [Simulation Matters.](/posts/simulation_matters/) - *2026 June 9*
 - [What is the Next Paradigm Shift in Robotics?](/posts/the_next_paradigm_shift/) - *2025 December 24*
 - [There are Free Lunches in Robotics](/posts/free_lunch_in_robotics/) - *2025 July 18*

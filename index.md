@@ -7,16 +7,17 @@ favicon: favicon.svg
 
 ------------
 
-### Simulation Matters.
+### Tracking ICRA Trends (P-Hacking ICRA p. II)
 
-*2026 June 9*
+*2026 July 19*
 
-On February 16, 2026, I had the opportunity to participate in a structured debate—something I had never done before. The debate was centered around the role of *simulation* in robotics. See, there are a lot of problems in robotics that feel like they would just go away if simulation was better. But simulation in robotics, while being quite impressive, still lacks some things we really wish it had... [Read More →](/posts/simulation_matters/)
+I had the opportunity to attend ICRA 2026 in Vienna last month and wanted to make a post highlighting some loose trends and giving my thoughts on where the field of robotics is headed... [Read More →](/posts/icra_trends/)
 
 ------------
 
 ## All Posts
 
+- [Tracking ICRA Trends (P-Hacking ICRA p. II)](/posts/icra_trends/) - *2026 July 19*
 - [Simulation Matters.](/posts/simulation_matters/) - *2026 June 9*
 - [What is the Next Paradigm Shift in Robotics?](/posts/the_next_paradigm_shift/) - *2025 December 24*
 - [The Absolute State of Modern Chess (Engines)](/posts/state_of_chess_engines/) - *2025 November 7*
