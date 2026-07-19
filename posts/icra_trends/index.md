@@ -16,7 +16,7 @@ header-includes: |
 
 ## 1 Introduction
 
-I had the opportunity to attend ICRA 2026 in Vienna last month and wanted to make a post highlighting some loose trends and giving my thoughts on where the field of robotics is headed. I made a [similar post for last year's ICRA](../icra_trends/), but this time, the plots are a bit prettier.
+I had the opportunity to attend ICRA 2026 in Vienna last month and wanted to make a post highlighting some loose trends and giving my thoughts on where the field of robotics is headed. I made a [similar post for last year's ICRA](../p_hacking_icra/), but this time, the plots are a bit prettier.
 
 ![Me presenting my work [@wright2025robust] in Vienna!](./input.jpg){width=40%}
 
